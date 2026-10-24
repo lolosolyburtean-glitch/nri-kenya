@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explore partnership, volunteering and collaboration with Northern Resilience Initiatives.">
+  <title>Get Involved | Northern Resilience Initiatives</title>
+  <link rel="icon" href="assets/logo.png" type="image/png">
+  <link rel="stylesheet" href="assets/styles.css">
+  <script defer src="assets/site.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html" aria-label="Northern Resilience Initiatives Home">
+        <img src="assets/logo.png" alt="Northern Resilience Initiatives logo">
+        <span class="brand-text">
+          <strong>Northern Resilience</strong>
+          <small>Initiatives</small>
+        </span>
+      </a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="primary-nav">
+        <span></span><span></span><span></span>
+        <b class="sr-only">Toggle navigation</b>
+      </button>
+      <nav id="primary-nav" class="primary-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">Who we are</a>
+        <a href="programs.html">Our work</a>
+        <a href="impact.html">Impact & resources</a>
+        <a class="nav-cta active" href="get-involved.html">Get involved ↗</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow light">GET INVOLVED</p>
+        <h1>Join our mission.<br><em>Let's build resilience together.</em></h1>
+        <p>Whether you are exploring a corporate partnership, looking to volunteer your skills, or wanting to support community-led initiatives, your contribution drives lasting stability.</p>
+      </div>
+    </section>
+
+    <section class="section-pad">
+      <div class="container involvement-grid">
+        <div class="involvement-copy">
+          <p class="eyebrow">WAYS TO CONNECT</p>
+          <h2 style="font-size:1.7rem;font-weight:800;color:var(--green-dark);margin-bottom:1.5rem;">Different strengths.<br>Shared purpose.</h2>
+
+          <div class="involvement-option">
+            <span>01</span>
+            <div>
+              <h3>Donors & Funders</h3>
+              <p>Collaborate with us on program priorities, strategic resource mobilization, and strict compliance reporting to deliver maximum impact where it matters most.</p>
+            </div>
+          </div>
+          <div class="involvement-option">
+            <span>02</span>
+            <div>
+              <h3>Institutional Partners</h3>
+              <p>Build strong alliances with public institutions, civil society, and international organizations to co-create policy-aligned development models.</p>
+            </div>
+          </div>
+          <div class="involvement-option">
+            <span>03</span>
+            <div>
+              <h3>Volunteers</h3>
+              <p>Share your skills and interests for consideration when relevant opportunities arise.</p>
+            </div>
+          </div>
+          <p class="editor-note">Submitting an enquiry does not guarantee funding, a partnership or a volunteer placement.</p>
+
+          <div style="margin-top:2rem;">
+            <img src="assets/involved-bg.jpg" alt="Arid landscape with wildlife in northern Kenya" style="border-radius:12px;width:100%;height:220px;object-fit:cover;">
+          </div>
+        </div>
+
+        <div class="form-card">
+          <p class="eyebrow">START A CONVERSATION</p>
+          <h2>Tell us a little about yourself.</h2>
+          <form name="partnership-enquiry" method="POST" action="/thank-you.html" data-netlify="true" netlify-honeypot="bot-field">
+            <input type="hidden" name="form-name" value="partnership-enquiry">
+            <p class="hidden-field"><label>Do not fill this out: <input name="bot-field"></label></p>
+
+            <label for="full-name">Full name *</label>
+            <input id="full-name" name="name" autocomplete="name" required placeholder="Your name">
+
+            <label for="email">Email address *</label>
+            <input id="email" name="email" type="email" autocomplete="email" required placeholder="you@example.org">
+
+            <label for="organization">Organization (if applicable)</label>
+            <input id="organization" name="organization" autocomplete="organization" placeholder="Organization name">
+
+            <label for="interest">I'm interested in *</label>
+            <select id="interest" name="interest" required>
+              <option value="">Choose an option</option>
+              <option>Funding or grant partnership</option>
+              <option>Institutional collaboration</option>
+              <option>Volunteering</option>
+              <option>Community programme</option>
+              <option>Other enquiry</option>
+            </select>
+
+            <label for="message">How would you like to partner with us? *</label>
+            <textarea id="message" name="message" rows="5" required placeholder="Please tell us a bit about your organization, project idea, or area of interest."></textarea>
+
+            <label class="consent">
+              <input type="checkbox" name="privacy-consent" value="yes" required>
+              <span>I agree that the organization may use these details to respond to my enquiry. *</span>
+            </label>
+
+            <button class="button button-dark form-submit" type="submit">Send enquiry ↗</button>
+            <p class="form-note">Please don't include confidential, financial or sensitive personal information.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-main">
+      <div class="footer-brand">
+        <a class="brand" href="index.html">
+          <img src="assets/logo.png" alt="Logo">
+          <span class="brand-text">
+            <strong>Northern Resilience</strong>
+            <small>Initiatives</small>
+          </span>
+        </a>
+        <p>Working alongside communities for a more resilient future.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <a href="about.html">Who we are</a>
+        <a href="programs.html">Our work</a>
+        <a href="impact.html">Impact & resources</a>
+      </div>
+      <div>
+        <h4>Connect</h4>
+        <a href="get-involved.html">Get involved</a>
+        <a href="contact.html">Contact us</a>
+        <a href="privacy.html">Privacy notice</a>
+      </div>
+      <div class="footer-contact">
+        <h4>Let's talk</h4>
+        <p>For reports and partnership information, contact the team.</p>
+        <a class="text-link text-link-light" href="contact.html">Send an enquiry →</a>
+        <p style="margin-top:0.75rem;font-size:0.95rem;"><a href="tel:+254701780748" style="color:var(--lime);font-weight:600;">+254 701 780 748</a></p>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>© <span data-year></span> Northern Resilience Initiatives</span>
+      <span>Community-led. Accountable. Forward-looking.</span>
+    </div>
+  </footer>
+</body>
+</html>
